@@ -25,10 +25,10 @@ spec:
           valueFrom:
             secretKeyRef:
               key: mypass
-              name: mysecret
+              name: mysql-secret
         - name: MYSQL_DATABASE
           valueFrom:
             secretKeyRef:
               key: mydb
-              name: mysecret
+              name: mysql-secret
 
